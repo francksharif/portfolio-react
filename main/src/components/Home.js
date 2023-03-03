@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-16 mt-10 mb-10 ">
+    <div
+      className="container mx-auto md:max-w-screen-lg px-16 mt-10 mb-10 "
+      id="Home"
+    >
       <div className="mb-16">
         <p className="text-[#64ffda] font-mono mb-6 text-lg ">Hi, my name is</p>
         <h1 className="text-5xl font-bold text-[#ccd6f6] font-['Rubik'] font-bold">
@@ -21,7 +24,7 @@ export default function Home() {
       </div>
       <div>
         <a
-          href="#"
+          href="#Work"
           className="text-[#64ffda] font-mono border-2 border-[#64ffda] px-5 py-5 rounded-sm  hover:bg-[#64ffdb13] transition"
         >
           Check my portfolio!
